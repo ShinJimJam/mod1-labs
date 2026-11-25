@@ -5,9 +5,12 @@ import java.util.Scanner;
 public class Airport {
 
 	public static void main(String[] args) {
+		char repeat;
 		
 		Scanner input = new Scanner(System.in);
 		
+		do {
+				
 		System.out.print("Enter amount in GBP: ");
 		double amount = input.nextDouble();
 		
@@ -85,7 +88,13 @@ public class Airport {
 		System.out.println("Amount after tax: £" + amountAfterTax);
 		System.out.println("Final foreign currency: " + finalAmount);
 		
+		System.out.println("---------------------------");
+	    System.out.print("Would you like to make another exchange? (Y/N): ");
+	    repeat = input.next().toUpperCase().charAt(0);
+		
+		}
+		while (repeat == 'Y');
 		input.close();
-	}
 
+	}
 }
