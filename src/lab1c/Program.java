@@ -1,4 +1,4 @@
-package lab3;
+package lab1c;
 
 public class Program {
 
@@ -18,10 +18,10 @@ public class Program {
 		theLunchQueue(utils);
 		
         // Part 3 - Pounds conversion
-        int pounds = utils.getInt("Enter your weight in pounds: ");
+        int pounds = utils.getInt("\nEnter your weight in pounds: ");
         convertInputToStonesPounds(pounds);
         
-        int kg = utils.getInt("Enter your weight in kilograms: ");
+        int kg = utils.getInt("\nEnter your weight in kilograms: ");
         convertKgsToStonesPounds(kg);
 	}
 	

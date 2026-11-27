@@ -1,11 +1,11 @@
-package lab2;
+package lab1b;
 
 public class Program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int mark = 101;
+		int mark = 70;
 		String result;
 		
 		
