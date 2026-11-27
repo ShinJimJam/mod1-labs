@@ -15,7 +15,6 @@ public class Utils {
 	public String getString(String prompt) {
 		System.out.println(prompt);
 		return s.nextLine();
-
 	}
 	
 }
